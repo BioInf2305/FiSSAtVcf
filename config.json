@@ -1,0 +1,19 @@
+{
+    "tools": {
+        "PLINK": "/home/maulik/software/populationGenomics/Plink/plink",
+        "KING": "/home/maulik/software/populationGenomics/King/king",
+        "fastIndep":"/home/maulik/software/populationGenomics/FastIndep/fastindep"
+    },
+    "base_out": {
+        "inputDir":"/home/maulik/skills_test_1/input/",
+        "outputDir": "/home/maulik/skills_test_1/output/"
+    },
+    "params":{
+        "chrmList":[19,20,21,22],
+        "kinThreshold":"0.0442",
+        "runs":"5",
+        "seeds":"2345",
+        "threads":"4"
+    }
+
+}

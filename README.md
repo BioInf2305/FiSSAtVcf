@@ -1,6 +1,6 @@
 # FiSSAtVcf pipeline (Filter Snps and Samples,Add tags in the VCF file)
 
-FiSSAtVcf is a Snakemake pipeline that can identify and remove unrelated samples, filter SNPs and add several customized "INFO" tags in the VCF files. The pipeline combines several open-souce tools and can also be run in parallel, therefore, the execution is relatively fast. Note that the pipeline has been designed specifically for Linux OS. 
+FiSSAtVcf is a Snakemake pipeline that can identify and remove related samples, filter SNPs and add several customized "INFO" tags in the VCF files. The pipeline combines several open-souce tools and can also be run in parallel, therefore, the execution is relatively fast. Note that the pipeline has been designed specifically for Linux OS. 
 
  ### Utilities
  FiSSAtVcf will remove unrelated samples, monomorphic SNPs and add the following tags in INFO field after its computation:
